@@ -12,8 +12,13 @@ Requirements
  
  Timer feedback
  
-  "1000427"
+  Example: MQTT Publish --> "1000427"
   - First digit "1" sets the diving delay. This value is multiplied by ten, so "1" is a delay of 10 seconds, "2" is 20 seconds etc
   - The second and third digit are used for depth sensor feedback (see below)
   - Fourth and fifth digit "04" sets the pumping interval from the internal bladder to external bladder "04" = 4 seconds (Glider rises)
   - Digit six and seven "27" (27 seconds) sets the pumping interval from external bladder to internal bladder (glider dives)
+  
+  Depth Sensor feedback
+   Example: MQTT Publish ---> "2.20427"
+   - First three digits sets the maximum depth limit in [meters] (2.2m)
+   - The rest of the digits is the same as timer feedback. 
