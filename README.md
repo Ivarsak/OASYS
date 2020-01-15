@@ -10,7 +10,7 @@ Requirements
 
  Glider Commands:
  
- Timer feedback:
+ Timer feedback
  
   "1000427"
   - First digit "1" sets the diving delay. This value is multiplied by ten, so "1" is a delay of 10 seconds, "2" is 20 seconds etc
