@@ -12,6 +12,8 @@ Requirements
  
  Timer feedback:
  
-  "0900427"
-  - First two digits "10" sets the diving delay. This value is multiplied by two, so "10" gives a 
-  - 
+  "1000427"
+  - First digit "1" sets the diving delay. This value is multiplied by ten, so "1" is a delay of 10 seconds, "2" is 20 seconds etc
+  - The second and third digit are used for depth sensor feedback (see below)
+  - Fourth and fifth digit "04" sets the pumping interval from the internal bladder to external bladder "04" = 4 seconds (Glider rises)
+  - Digit six and seven "27" (27 seconds) sets the pumping interval from external bladder to internal bladder (glider dives)
