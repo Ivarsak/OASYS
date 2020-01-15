@@ -20,5 +20,5 @@ Requirements
   
   Depth Sensor feedback
    Example: MQTT Publish ---> "2.20427"
-   - First three digits sets the maximum depth limit in [meters] (2.2m)
-   - The rest of the digits is the same as timer feedback. 
+   - First three digits sets the maximum depth limit in meters. "2.2" = 2.2 meters
+   - The rest of the digits is the same as the timer feedback. 
